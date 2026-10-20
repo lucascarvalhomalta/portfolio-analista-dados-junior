@@ -1,0 +1,30 @@
+# Ambientes, caches e temporários
+.venv/
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+*.py[cod]
+
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+**/*credentials*
+**/*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dados: não versionar sem confirmar segurança e permissão
+/projetos/vendas-de-videogames/games.csv
+/projetos/mercado-de-taxis/project_sql_result_*.csv
+/projetos/marketing-e-retorno/costs_us.csv
+/projetos/marketing-e-retorno/orders_log_us.csv
+/projetos/marketing-e-retorno/visits_log_us.csv
+/projetos/sazonalidade-hoteleira/hotel_booking.csv
